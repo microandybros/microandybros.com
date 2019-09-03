@@ -1,10 +1,8 @@
 import React from "react"
-import styled from "styled-components"
+import "../styles/global.css"
 
-const Header = styled.h1`
-  background-color: #f0f;
-  flex: 1;
-  text-align: center;
-`
-
-export default () => <Header>Hello world!</Header>
+export default () => {
+  return (
+    <h2 className="hello">Hello world!</h2>
+  )
+}
