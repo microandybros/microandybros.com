@@ -1,5 +1,64 @@
-.hello {
-  background-color: #f0f;
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+html, body {
+  color: rgb(51, 69, 91) none repeat scroll 0% 0%;
+  background: rgb(5, 51, 88);
+  /* background-color: green; */
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', sans-serif;
+  height: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+body > * {
+  display: flex;
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+.container {
+  background-color: blue;
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction: column;
+  /* height: 100%; */
+  width: 100%;
+}
+
+header {
+  /* background-color: red; */
+  color: #fff;
+  display: flex;
   flex: 1;
+}
+
+main {
+  display: flex;
+  flex: 1 0;
+  flex-direction: row;
+}
+
+.content {
+  flex-direction: column;
+  display: flex;
+  flex: 1 1 200px;
+}
+
+.sidebar {
+  background: rgb(235, 239, 242) none repeat scroll 0% 0%;
+  flex: 0 0 200px;
+}
+
+.headline {
+  color: rgb(13, 0, 13) none repeat scroll 0% 0%;
+  text-align: center;
+}
+
+.subHeadline {
+  color: rgb(13, 0, 13) none repeat scroll 0% 0%;
   text-align: center;
 }
